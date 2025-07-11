@@ -73,6 +73,7 @@ This repo includes papers about the adaptive thinking of reasoning LLMs. Adaptiv
   * https://arxiv.org/abs/2505.20258
 
 * **Ada-R1: Hybrid-CoT via bi-level adaptive reasoning optimization**
+  * ***Simple Note📕: Collect data to conduct DPO. Based on group accuracy and length to gather preference pairs.***
   * Haotian Luo, Haiying He, Yibo Wang, Jinluan Yang, Rui Liu, Naiqiang Tan, Xiaochun Cao, Dacheng Tao, Li Shen.
   * https://arxiv.org/abs/2504.21659
 
