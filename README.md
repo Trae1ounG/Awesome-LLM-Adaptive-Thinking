@@ -1,4 +1,4 @@
-# Adaptive thinking papers 
+# LRMs Adaptive Thinking Papers😎
 
 This repo includes papers about the adaptive thinking of reasoning LLMs. Adaptive thinking is benificial for long-CoT  large reasoning models to save cost and improve effeciency.
 
