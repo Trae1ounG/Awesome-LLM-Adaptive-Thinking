@@ -92,8 +92,10 @@ This repo includes papers about the adaptive thinking of reasoning LLMs. Adaptiv
   * Guosheng Liang, Longguang Zhong, Ziyi Yang, Xiaojun Quan.
   * https://arxiv.org/abs/2505.14183
 
-
-
+## Other Methods4
+* **Flexible Realignment of Language Models**
+  * Wenhong Zhu, Ruobing Xie, Weinan Zhang, Rui Wang.
+  * https://arxiv.org/pdf/2506.12704
 ## Long-CoT Compression
 
 ## Star History
