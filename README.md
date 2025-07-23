@@ -20,6 +20,11 @@ This repo includes papers about the adaptive thinking of reasoning LLMs. Adaptiv
 
 ## RL-based Solution
 
+* **Optimizing Length Compression in Large Reasoning Models⭐**
+  * ***Simple Note📕: A GRPO-based method that uses a dual-reward system: a 'Length Reward' for overall conciseness and a 'Compress Reward' to specifically prune 'invalid thinking' after the correct answer is found.***
+  * Zhengxiang Cheng, Dongping Chen, Mingyang Fu, Tianyi Zhou.
+  * https://arxiv.org/abs/2506.14755
+
 * **Think how to think: Mitigating overthinking with autonomous difficulty cognition in large reasoning models⭐**
   * ***Simple Note📕: Using SFT for autonomous difficulty cognition***
   * Yongjiang Liu, Haoxi Li, Xiaosong Ma, Jie Zhang, Song Guo
@@ -81,6 +86,7 @@ This repo includes papers about the adaptive thinking of reasoning LLMs. Adaptiv
   * ***Simple Note📕: Proposes two methods: 1) training-free 'Efficiency Steering' via a vector from efficient/verbose paths, and 2) 'Self-Rewarded Efficiency RL' to reward brevity.***
   * Weixiang Zhao, Jiahe Guo, Yang Deng, Xingyu Sui, Yulin Hu, Yanyan Zhao, Wanxiang Che, Bing Qin, Tat-Seng Chua, Ting Liu.
   * https://arxiv.org/abs/2506.15647
+
 
 
 ## Outside Switcher-based Solution
