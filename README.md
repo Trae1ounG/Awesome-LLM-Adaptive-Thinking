@@ -98,12 +98,21 @@ This repo includes papers about the adaptive thinking of reasoning LLMs. Adaptiv
   * Anqi Zhang, Yulin Chen, Jane Pan, Chen Zhao, Aurojit Panda, Jinyang Li, He He.
   * https://arxiv.org/abs/2504.05419
 
+
+  
+
 ## Latent Reasoning Thinking
 
 * **Soft Thinking: Unlocking the Reasoning Potential of LLMs in Continuous Concept Space⭐**
   * ***Simple Note📕: A training-free method that uses a probability-weighted mixture of token embeddings to create 'concept tokens', enabling reasoning in a continuous space to explore multiple paths implicitly.***
   * Zhen Zhang, Xuehai He, Weixiang Yan, Shuohang Wang, Yelong Shen, Ao Shen, Chenyang Zhao, Xin Eric Wang.
   * https://arxiv.org/abs/2505.15778
+
+
+* **On Reasoning Strength Planning in Large Reasoning Models⭐**
+  * ***Simple Note📕: Finds that LRMs pre-plan reasoning length via a directional vector in activations (found by the difference in means of hard/easy questions), which can be steered to control reasoning token count.***
+  * Leheng Sheng, An Zhang, Zijian Wu, Weixiang Zhao, Changshuo Shen, Yi Zhang, Xiang Wang, Tat-Seng Chua.
+  * https://arxiv.org/abs/2506.08390
 
 
 ## Other Methods4
