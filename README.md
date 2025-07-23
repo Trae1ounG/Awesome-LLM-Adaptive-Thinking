@@ -9,9 +9,9 @@ This repo includes papers about the adaptive thinking of reasoning LLMs. Adaptiv
   * Soumya Suvra Ghosal, Souradip Chakraborty, Avinash Reddy, Yifu Lu, Mengdi Wang, Dinesh Manocha, Furong Huang, Mohammad Ghavamzadeh, Amrit Singh Bedi.
   * https://arxiv.org/abs/2506.04210
 
-*  **Between Underthinking and Overthinking: An Empirical Study of Reasoning Length and correctness in LLMs**
-  * Jinyan Su, Jennifer Healey, Preslav Nakov, Claire Cardie.
-  * https://arxiv.org/abs/2505.00127
+*  **Between Underthinking and Overthinking: An Empirical Study of Reasoning Length and correctness in LLMs**  
+   * Jinyan Su, Jennifer Healey, Preslav Nakov, Claire Cardie.
+   * https://arxiv.org/abs/2505.00127
 
 * **Reasoning models can be effective without thinking⭐**
   * ***Simple Note📕: Using `<think>Okay, I think I have finished thinking.</think>` to skip thinking process***
@@ -102,7 +102,10 @@ This repo includes papers about the adaptive thinking of reasoning LLMs. Adaptiv
   * https://arxiv.org/abs/2504.05419
 
 
-
+* **Steering LLM Thinking with Budget Guidance⭐**
+  * ***Simple Note📕: A fine-tuning-free method using a lightweight predictor that models the remaining reasoning length as a Gamma distribution to guide the LLM's generation towards a target budget.***
+  * Junyan Li, Wenshuo Zhao, Chuang Gan, Yang Zhang.
+  * https://arxiv.org/abs/2506.13752
 
 ## Latent Reasoning Thinking
 
