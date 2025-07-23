@@ -119,6 +119,11 @@ This repo includes papers about the adaptive thinking of reasoning LLMs. Adaptiv
   * Junyan Li, Wenshuo Zhao, Chuang Gan, Yang Zhang.
   * https://arxiv.org/abs/2506.13752
 
+* **Dynamic Early Exit in Reasoning Models⭐**
+    * ***Simple Note📕: A training-free method that monitors for reasoning transition tokens (e.g., `Wait`), induces a trial answer, and performs an early exit if the model's confidence in that answer is high.***
+    * Chenxu Yang, Qingyi Si, Yongjie Duan, Zheliang Zhu, Chenyu Zhu, Qiaowei Li, Zheng Lin, Li Cao, Weiping Wang.
+    * https://arxiv.org/abs/2504.15895
+  
 ## Latent Reasoning Thinking
 
 * **Soft Thinking: Unlocking the Reasoning Potential of LLMs in Continuous Concept Space⭐**
