@@ -18,6 +18,12 @@ This repo includes papers about the adaptive thinking of reasoning LLMs. Adaptiv
   * Wenjie Ma, Jingxuan He, Charlie Snell, Tyler Griggs, Sewon Min, Matei Zaharia.
   * https://arxiv.org/abs/2504.09858
 
+
+* **ALPHAONE: Reasoning Models Thinking Slow and Fast at Test Time⭐**
+  * ***Simple Note📕: A test-time method that defines an 'α moment' to scale the thinking phase, encouraging slow thinking before it (by adding `Wait,`) and forcing fast thinking after it (by replacing `Wait,` with `</think>`).***
+  * Junyu Zhang, Haoran Geng, Peihao Li, Runpei Dong, Han Wang, Xuying Ning, Xialin He, Yutong Bai, Huan Zhang, Jitendra Malik, Saurabh Gupta.
+  * https://arxiv.org/abs/2505.24863
+  
 ## RL-based Solution
 
 * **Optimizing Length Compression in Large Reasoning Models⭐**
