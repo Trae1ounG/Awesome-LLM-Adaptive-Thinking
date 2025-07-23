@@ -77,7 +77,10 @@ This repo includes papers about the adaptive thinking of reasoning LLMs. Adaptiv
   * Haotian Luo, Haiying He, Yibo Wang, Jinluan Yang, Rui Liu, Naiqiang Tan, Xiaochun Cao, Dacheng Tao, Li Shen.
   * https://arxiv.org/abs/2504.21659
 
-
+* **Exploring and Exploiting the Inherent Efficiency within Large Reasoning Models for Self-Guided Efficiency Enhancement⭐**
+  * ***Simple Note📕: Proposes two methods: 1) training-free 'Efficiency Steering' via a vector from efficient/verbose paths, and 2) 'Self-Rewarded Efficiency RL' to reward brevity.***
+  * Weixiang Zhao, Jiahe Guo, Yang Deng, Xingyu Sui, Yulin Hu, Yanyan Zhao, Wanxiang Che, Bing Qin, Tat-Seng Chua, Ting Liu.
+  * https://arxiv.org/abs/2506.15647
 
 
 ## Outside Switcher-based Solution
@@ -99,7 +102,7 @@ This repo includes papers about the adaptive thinking of reasoning LLMs. Adaptiv
   * https://arxiv.org/abs/2504.05419
 
 
-  
+
 
 ## Latent Reasoning Thinking
 
