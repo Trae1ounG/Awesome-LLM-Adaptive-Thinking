@@ -92,12 +92,18 @@ This repo includes papers about the adaptive thinking of reasoning LLMs. Adaptiv
   * Guosheng Liang, Longguang Zhong, Ziyi Yang, Xiaojun Quan.
   * https://arxiv.org/abs/2505.14183
 
+
+* **Reasoning Models Know When They're Right: Probing Hidden States for Self-Verification⭐**
+  * ***Simple Note📕: Trains an MLP probe on the model's last-layer hidden states to verify the correctness of intermediate answers, enabling early-exit to reduce overthinking.***
+  * Anqi Zhang, Yulin Chen, Jane Pan, Chen Zhao, Aurojit Panda, Jinyang Li, He He.
+  * https://arxiv.org/abs/2504.05419
+
 ## Latent Reasoning Thinking
 
 * **Soft Thinking: Unlocking the Reasoning Potential of LLMs in Continuous Concept Space⭐**
-* ***Simple Note📕: A training-free method that uses a probability-weighted mixture of token embeddings to create 'concept tokens', enabling reasoning in a continuous space to explore multiple paths implicitly.***
-* Zhen Zhang, Xuehai He, Weixiang Yan, Shuohang Wang, Yelong Shen, Ao Shen, Chenyang Zhao, Xin Eric Wang.
-* https://arxiv.org/abs/2505.15778
+  * ***Simple Note📕: A training-free method that uses a probability-weighted mixture of token embeddings to create 'concept tokens', enabling reasoning in a continuous space to explore multiple paths implicitly.***
+  * Zhen Zhang, Xuehai He, Weixiang Yan, Shuohang Wang, Yelong Shen, Ao Shen, Chenyang Zhao, Xin Eric Wang.
+  * https://arxiv.org/abs/2505.15778
 
 
 ## Other Methods4
