@@ -48,7 +48,8 @@ This repo includes papers about the adaptive thinking of reasoning LLMs. Adaptiv
   * Yunhao Wang, Yuhao Zhang, Tinghao Yu, Can Xu, Feng Zhang, Fengzong Lian.
   * https://arxiv.org/abs/2505.20101
 
-* **AdaCtrl: Towards Adaptive and Controllable Reasoning via Difficulty-Aware Budgeting**
+* **AdaCtrl: Towards Adaptive and Controllable Reasoning via Difficulty-Aware Budgeting⭐**
+  * ***Simple Note📕: A two-stage method that first SFTs the model on `[Easy]` and `[Hard]` tags for length control, then uses difficulty-aware RL to train for adaptive, self-assessed reasoning budgeting.***
   * Shijue Huang, Hongru Wang, Wanjun Zhong, Zhaochen Su, Jiazhan Feng, Bowen Cao, Yi R. Fung.
   * https://arxiv.org/abs/2505.18822
 
