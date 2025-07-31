@@ -2,6 +2,12 @@
 
 This repo includes papers about the adaptive thinking of reasoning LLMs. Adaptive thinking is benificial for long-CoT  large reasoning models to save cost and improve effeciency.
 
+## Survey
+* **Towards concise and adaptive thinking in large reasoning models: A survey⭐⭐⭐**
+  * Jason Zhu, Hongyu Li.
+  * https://arxiv.org/abs/2507.09662
+
+
 ## Analysis of Overthinking and Underthinking
 
 * **Does thinking more always help? Understanding test-time scaling in reasoning models⭐**
@@ -93,6 +99,23 @@ This repo includes papers about the adaptive thinking of reasoning LLMs. Adaptiv
   * Haotian Luo, Haiying He, Yibo Wang, Jinluan Yang, Rui Liu, Naiqiang Tan, Xiaochun Cao, Dacheng Tao, Li Shen.
   * https://arxiv.org/abs/2504.21659
 
+## Early Exit
+
+* **Think or not? Exploring thinking efficiency in large reasoning models via an information-theoretic lens⭐**
+  * ***Simple Note📕: First analysis the infomation bias and information gain. Then use Entropy as threshold to perform dynamic early exit. Great Performance.***
+  * Xixian Yong, Xiao Zhou, Yingying Zhang, Jinlin Li, Yefeng Zheng, Xian Wu.
+  * https://arxiv.org/abs/2505.18237
+
+* **Dynamic Early Exit in Reasoning Models⭐**
+    * ***Simple Note📕: A training-free method that monitors for reasoning transition tokens (e.g., `Wait`), induces a trial answer, and performs an early exit if the model's confidence in that answer is high.***
+    * Chenxu Yang, Qingyi Si, Yongjie Duan, Zheliang Zhu, Chenyu Zhu, Qiaowei Li, Zheng Lin, Li Cao, Weiping Wang.
+    * https://arxiv.org/abs/2504.15895
+  
+* **Reasoning Models Know When They're Right: Probing Hidden States for Self-Verification⭐**
+  * ***Simple Note📕: Trains an MLP probe on the model's last-layer hidden states to verify the correctness of intermediate answers, enabling early-exit to reduce overthinking.***
+  * Anqi Zhang, Yulin Chen, Jane Pan, Chen Zhao, Aurojit Panda, Jinyang Li, He He.
+  * https://arxiv.org/abs/2504.05419
+
 ## Outside Switcher-based Solution
 
 * **Steering LLM Thinking with Budget Guidance⭐**
@@ -110,16 +133,6 @@ This repo includes papers about the adaptive thinking of reasoning LLMs. Adaptiv
   * Guosheng Liang, Longguang Zhong, Ziyi Yang, Xiaojun Quan.
   * https://arxiv.org/abs/2505.14183
 
-* **Dynamic Early Exit in Reasoning Models⭐**
-    * ***Simple Note📕: A training-free method that monitors for reasoning transition tokens (e.g., `Wait`), induces a trial answer, and performs an early exit if the model's confidence in that answer is high.***
-    * Chenxu Yang, Qingyi Si, Yongjie Duan, Zheliang Zhu, Chenyu Zhu, Qiaowei Li, Zheng Lin, Li Cao, Weiping Wang.
-    * https://arxiv.org/abs/2504.15895
-  
-* **Reasoning Models Know When They're Right: Probing Hidden States for Self-Verification⭐**
-  * ***Simple Note📕: Trains an MLP probe on the model's last-layer hidden states to verify the correctness of intermediate answers, enabling early-exit to reduce overthinking.***
-  * Anqi Zhang, Yulin Chen, Jane Pan, Chen Zhao, Aurojit Panda, Jinyang Li, He He.
-  * https://arxiv.org/abs/2504.05419
-
 ## Latent Reasoning Thinking
 
 * **On Reasoning Strength Planning in Large Reasoning Models⭐**
@@ -132,10 +145,16 @@ This repo includes papers about the adaptive thinking of reasoning LLMs. Adaptiv
   * Zhen Zhang, Xuehai He, Weixiang Yan, Shuohang Wang, Yelong Shen, Ao Shen, Chenyang Zhao, Xin Eric Wang.
   * https://arxiv.org/abs/2505.15778
 
-## Other Methods4
+## Other Methods
 * **Flexible Realignment of Language Models**
   * Wenhong Zhu, Ruobing Xie, Weinan Zhang, Rui Wang.
   * https://arxiv.org/pdf/2506.12704
+
+* **Overclocking LLM reasoning: Monitoring and controlling thinking path lengths in LLMs**
+  * ***Simple Note📕: training a regressor to identify the reasoning progress, and can make an intervention to make LRM think shorter.***
+  * Roy Eisenstadt, Itamar Zimerman, Lior Wolf
+  * https://arxiv.org/abs/2506.07240
+
 ## Long-CoT Compression
 
 ## Star History
